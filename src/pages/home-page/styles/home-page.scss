@@ -1,0 +1,99 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+/// 
+/// 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+} 
+
+#home-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1E1E1E;;
+  height: 100vh;
+  align-items: center;
+}
+
+.song-preview-card {
+  display: flex;
+  flex-direction: column;
+  height: 607px;
+  width: 413px;
+  background: #9296C4;
+  border-radius: 24px;
+}
+
+.clock {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.album-cover {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.song-preview-card__image {
+  width: 381px;
+  height: 381px;
+  border-radius: 15px;
+  margin: 16px;
+}
+
+.song-preview-card__title {
+  font-size: 24px;
+  color: white;
+  margin-left: 32px;
+  
+}
+
+.song-preview-card__artist {
+  font-size: 18px;
+  color: white;
+}
+
+.song-preview-card__artist-and-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 32px;
+}
+
+.song-preview-card__time {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
+
+.line {
+margin: 0 auto;
+margin-top: 24px;
+width: 349px;
+height: 0px;
+opacity: 0.2;
+border: 1.5px solid #FFFFFF;
+}
+
+.song-preview-card__album-cover-and-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+
+}
+
+.song-preview-card__album-info-container {
+  display: flex;
+  font-size: 18px;
+  gap: 8px;
+  color: white;
+}
